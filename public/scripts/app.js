@@ -109,7 +109,7 @@ var Router = Backbone.Router.extend({
     },
 
     /**
-     * Just inserts into view container specified veiw.
+     * Just inserts into view container specified view.
      * @param view
      */
     render: function (route) {
