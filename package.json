@@ -2,6 +2,10 @@
   "name": "router",
   "version": "0.0.1",
   "dependencies": {
+    "bower": "^1.5.3",
     "express": "^4.13.3"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
   }
 }
