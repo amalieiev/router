@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Router</title>
+</head>
+<body>
+<script type="text/template" id="login">
+    <h2><%- title %></h2>
+    <ul>
+        <li><a href="/flow.html?_flowId=homeFlow">login</a></li>
+    </ul>
+</script>
+<script type="text/template" id="common">
+    <h2><%- title %></h2>
+    <ul>
+        <li><a href="/flow.html?_flowId=searchFlow&mode=library">library</a></li>
+    </ul>
+    <ul>
+        <li><a href="/flow.html?_flowId=searchFlow&mode=search">searchResults</a></li>
+        <li><a href="/flow.html?_flowId=searchFlow">repository</a></li>
+        <li><a href="/flow.html?_flowId=logEventFlow">messages</a></li>
+        <li><a href="/flow.html?_flowId=sampleFlow&page=dialogs">uiSamples</a></li>
+    </ul>
+    <ul>
+        <li><a href="/flow.html?_flowId=tenantFlow">manageOrganizations</a></li>
+        <li><a href="/flow.html?_flowId=userListFlow">manageUsers</a></li>
+        <li><a href="/flow.html?_flowId=roleListFlow">manageRoles</a></li>
+    </ul>
+    <ul>
+        <li><a href="/flow.html?_flowId=adhocFlow">createAdhoc</a></li>
+        <li><a href="/dashboard/designer.html">createDashboard</a></li>
+        <li><a href="/flow.html?_flowId=createSLDatasourceFlow&ParentFolderUri=">createDomain</a></li>
+        <li><a href="/flow.html?_flowId=addDataSourceFlow&ParentFolderUri=%2Fdatasources">createDatasource</a></li>
+    </ul>
+    <ul>
+        <li><a href="/login.html">logout</a></li>
+    </ul>
+</script>
+
+<div class="view"></div>
+
+<script src="/scripts/bower_components/jquery/dist/jquery.js"></script>
+<script src="/scripts/bower_components/underscore/underscore.js"></script>
+<script src="/scripts/bower_components/backbone/backbone.js"></script>
+<script src="/scripts/app.js"></script>
+</body>
+</html>
