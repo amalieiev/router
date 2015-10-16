@@ -1,0 +1,15 @@
+.header {
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background: royalblue;
+    padding-left: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background: royalblue;
+    height: 20px;
+    width: 100%;
+}
