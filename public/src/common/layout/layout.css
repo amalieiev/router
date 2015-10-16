@@ -1,4 +1,4 @@
-.header {
+.layout .header {
     height: 40px;
     line-height: 40px;
     color: white;
@@ -6,7 +6,7 @@
     padding-left: 10px;
 }
 
-.footer {
+.layout .footer {
     position: absolute;
     bottom: 0;
     background: royalblue;

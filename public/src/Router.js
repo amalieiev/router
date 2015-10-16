@@ -1,7 +1,7 @@
 define(function (require) {
     var Backbone = require('backbone'),
         $ = require('jquery'),
-        LayoutView = require('layout/LayoutView');
+        LayoutView = require('common/layout/LayoutView');
 
     var Router = Backbone.Router.extend({
 

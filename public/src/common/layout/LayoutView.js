@@ -8,6 +8,7 @@ define(function (require) {
     require('css!./layout');
 
     return BaseView.extend({
+        className: 'layout',
         template: _.template(LayoutTemplate)
     });
 });
