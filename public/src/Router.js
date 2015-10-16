@@ -35,17 +35,17 @@ define(function (require) {
         },
 
         library: function () {
-            var LibraryView = require('library/LibraryView');
+            var LibraryView = require('home/library/LibraryView');
             this.render(new LibraryView());
         },
 
         repository: function () {
-            var RepositoryView = require('library/repository/RepositoryView');
+            var RepositoryView = require('home/library/repository/RepositoryView');
             this.render(new RepositoryView());
         },
 
         messages: function () {
-            var MessagesView = require('library/messages/MessagesView');
+            var MessagesView = require('home/library/messages/MessagesView');
             this.render(new MessagesView());
         },
 
