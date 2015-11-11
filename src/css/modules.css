@@ -1,0 +1,51 @@
+/*background colors*/
+.bg-blue {
+    background-color: #2b81af;
+}
+
+.bg-darkblue {
+    background-color: #1d5987;
+}
+
+/*menu*/
+.menu {
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+.menu ul li {
+    float: left;
+    padding: 5px;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+/*panel*/
+.panel .title {
+    background-color: #1d5987;
+    padding: 10px;
+    color: white;
+}
+
+/*buttons*/
+.btn {
+    padding: 6px 20px;
+    color: white;
+    background-color: #2b81af;
+    display: inline-block;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.btn:hover {
+    background-color: #1d5987;
+}
+
+/*position*/
+.right {
+    float: right!important;
+}

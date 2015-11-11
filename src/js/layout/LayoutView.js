@@ -2,10 +2,8 @@ define(function (require) {
     var Backbone = require('backbone'),
         _ = require('underscore'),
         $ = require('jquery'),
-        BaseView = require('common/BaseView'),
+        BaseView = require('./BaseView'),
         LayoutTemplate = require('text!./LayoutTemplate.html');
-
-    require('css!./layout');
 
     return BaseView.extend({
         className: 'layout',
